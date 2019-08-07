@@ -3,4 +3,9 @@
   <groupId>com.test</groupId>
   <artifactId>Child1</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  <parent>
+  <groupId>com.test</groupId>
+  <artifactId>Parent</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  </parent>
 </project>
